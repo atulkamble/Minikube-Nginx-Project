@@ -35,5 +35,7 @@ minikube dashboard
 
 kubectl expose deployment nginx-deployment --type=LoadBalancer --port=80
 minikube service nginx-deployment
+minikube addons enable ingress
+
 ```
 
