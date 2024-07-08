@@ -17,7 +17,7 @@ New-Item Dockerfile
 nano Dockerfile
 docker build -t my-nginx-image .
 docker tag my-nginx-image atuljkamble/my-nginx-image:latest
-docker push atuljkamble/my-nginx-image:latest
+sudo docker push atuljkamble/my-nginx-image:latest
 docker run -p 80:80 atuljkamble/my-nginx-image
 
 New-Item nginx-deployment.yaml
