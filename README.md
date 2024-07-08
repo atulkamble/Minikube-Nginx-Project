@@ -2,6 +2,11 @@
 Git Docker Kubernetes | Minikube Webserver Project
 
 1. Launch EC2 Instance - SSH to it.
+2. Install git and clone this repository
+```
+git clone https://github.com/atulkamble/Minikube-Nginx-Project.git
+cd Minikube-Nginx-Project
+```
 ```
 docker login
 cd D:/project
